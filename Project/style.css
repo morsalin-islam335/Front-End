@@ -1,0 +1,131 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #51a9a6;
+}
+.logo
+{
+    width: 100%;
+    height: 140px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;  /* margin and padding komabar jonno */
+}
+
+.menu_container
+{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+}
+
+
+.banner_img{
+    width: 500px;
+}
+
+.banner_container
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(97, 163, 141);
+    text-align: center;
+}
+.description{
+
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(154, 135, 30);
+
+    
+}
+
+
+button{
+    padding: 15px 25px;
+    color: white;
+    
+}
+
+.button_1{
+    background-color: rgb(108, 170, 46);
+}
+.button_2{
+    background-color: rgb(170, 158, 46);
+}
+
+.service-card{
+    width: 260px;
+    height: 480px;
+    border: 2px solid cyan;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    padding: 68px;
+}
+
+.allergies_logo{
+    width: 200px;
+    
+}
+
+.service{
+    font-size: 22px;
+    list-style: circle;
+    color: rgb(83, 128, 0);
+
+}
+
+.topic
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: blueviolet;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+
+.contact_container{
+    text-align: center;
+}
+
+.input-box{
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+.text-area{
+    padding: 35px 50px;
+    text-align: center;
+}
+
+.submit{
+    padding: 10px 20px;
+    width: 35%;
+    margin-top: 20px;
+    background-color: rgb(40, 56, 53);
+    color: white;
+    font-size: 22px;
+    border: none;
+
+}
