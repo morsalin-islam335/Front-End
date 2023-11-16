@@ -1,0 +1,20 @@
+#parent
+{
+    padding: 50px;
+    background-color: yellow;
+    border: 1px dotted red;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+
+}
+
+#child
+{
+    padding:10px;
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    /* height: 100vh; */
+    
+}

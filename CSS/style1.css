@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+#address
+{
+    font: 200;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: yellow;
+}
+.fun
+{
+    color: magenta;
+}
+h3
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+#order
+{
+    color: rgba(138, 26, 26, 0.5); /* last number is gradient*/
+    color: #ff1932d9 ; /* last color will be aper */
+
+
+}
+
+#one
+{
+    background: linear-gradient(90deg, red, green);
+    background: linear-gradient(to top, green, cyan);
+}

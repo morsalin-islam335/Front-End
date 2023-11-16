@@ -1,0 +1,1 @@
+{"name":"Local: problem_c","url":"p:\\Front-End\\CSS\\codechef\\problem_c.cpp","tests":[{"id":1700064987696,"input":"3\n1\n4\n8","output":"0 1\n0 4\n1 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"p:\\Front-End\\CSS\\codechef\\problem_c.cpp","group":"local","local":true}

@@ -1,0 +1,47 @@
+#test2
+{
+ 
+}
+
+#one{
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   float: left;
+   
+}
+
+#two
+{
+   color: red;
+   width: 100px;
+   height: 100px;
+   background-color: green;
+   float: left;
+}
+.container{
+   text-align: center;
+}
+
+.box
+{
+   width: 100px;
+   height: 30px;
+   border: 1px solid cyan;
+
+
+}
+.container2
+{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   justify-content: space-between;
+   gap: 10px; /* gap rakhba */
+   flex-direction: row-reverse; /*reverse korar jonno */
+   height: 100vh;
+   align-items: center;
+   flex-wrap: wrap;
+
+
+}

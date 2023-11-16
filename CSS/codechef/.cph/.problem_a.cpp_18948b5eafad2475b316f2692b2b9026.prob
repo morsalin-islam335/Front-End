@@ -1,0 +1,1 @@
+{"name":"Local: problem_a","url":"p:\\Front-End\\CSS\\codechef\\problem_a.cpp","tests":[{"id":1700061469405,"input":"1 100\n-5 -150","output":"Dominater"},{"id":1700061490855,"input":"2636 2536\n-116 -11","output":"Everule"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"p:\\Front-End\\CSS\\codechef\\problem_a.cpp","group":"local","local":true}
