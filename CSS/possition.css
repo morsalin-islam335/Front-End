@@ -1,0 +1,59 @@
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    
+    padding-top: 50px;
+}
+
+/*
+.container
+{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    
+
+} */
+
+
+.box1{
+    background-color:blue;
+    position: absolute;
+    
+}
+
+.box2{
+    background-color: red;
+    margin-top: 40px;
+    position: fixed;
+    margin-top: 40px;
+}
+.box3{
+    background-color: green
+}
+
+.green{
+    margin-top: 100px;
+    width: 450px;
+    background-color: green;
+    height: 250px;
+    position: absolute;
+}
+
+.red
+{
+    width: 150px;
+    height: 150px;
+    color: red;
+    background-color: red;
+    border-radius: 75px;
+    margin-top: 65px;
+    margin-left: 140px;
+    position: relative;
+}
+
+
+

@@ -1,0 +1,33 @@
+.menu-container li{
+    padding-right: 10px;
+}
+
+
+
+@media only screen and (max-width:768px) and(min-width: 576px) {.logo  /* thats for small device */
+    {
+        padding-left: 6px;
+    }
+}
+
+
+
+@media only screen and (max-width:922px) and(min-width: 768px) {.logo  /* thats for medium device */
+    {
+        padding-left: 20px;
+    }
+}
+
+
+
+.logo{
+    padding-left: 20px;  /* that is for common device */
+}
+
+.button{
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 5px;
+}

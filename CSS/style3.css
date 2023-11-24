@@ -28,20 +28,16 @@
    width: 100px;
    height: 30px;
    border: 1px solid cyan;
-
-
 }
 .container2
 {
-   display: flex;
+   display: flex; /* parent div a flex korla child div pasapashi asba */
    justify-content: center;
-   justify-content: space-around;
+   justify-content: space-around; /* space kemon thakba */
    justify-content: space-between;
    gap: 10px; /* gap rakhba */
    flex-direction: row-reverse; /*reverse korar jonno */
    height: 100vh;
    align-items: center;
    flex-wrap: wrap;
-
-
 }

@@ -1,0 +1,154 @@
+<!-- Sample Project With Bootstrap  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samim Osman's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Images/samim.jpg">
+</head>
+<body>
+ 
+    <header>
+
+        <nav class="row d-flex m-auto justify-content-center align-items-center bg-info">
+            <div class="logo-container col-md-4 col-sm-3 col-lg-5 bg-info">
+                <img class="img-fluid w-50" src="./Images/samim.jpg" alt="">
+            </div>
+
+            <div class="menu-container flex fs-2 fw-bold fs-3 text-success col-md-5 col-lg-6 col-sm-2 d-flex list-unstyled flex-wrap p-2">
+                <li><button class="text-white bg-success">Home</button></li>
+                <li><button class="bg-success text-white">Service</button></li>
+                <li><button class="bg-success text-white">Contact</button></li>
+                <li><button class="bg-success text-white">About</button></li>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="main-container d-flex justify-content-center align-items-center mt-sm-3 mt-md-5 mt-lg-6 container">
+       <div class="top-left-container">
+            <h1>Make Your Appointment Now</h1>
+            <p class="text-danger-emphasis fs-3">
+                Take prescription from one of the best Doctors
+            </p>
+            
+            <div class="button-part d-flex gap-4 mt-5 align-item-center justify-content-around ">
+                <div class=" button button-make-appointment bg-success"><a class="txt text-decoration-none text-white" href="#"> <h6 class="h100">Make Appointment</h6></a></a></div>
+                <div class="button button-doctors text-white bg-info"> <a class="txt text-decoration-none text-white" href="#"> <h6 class="h-100">Doctors</h6></a></div>
+            </div>
+       </div>
+
+       <div class="logo">
+            <img class="w-100" src="./Images/doctor-1.jpg" alt="">
+       </div>
+    </div>
+
+ <!--##############SERVICE CONTAINER###############-->
+    <h1 class="text-center container justify-content-center text-danger-emphasis container bg-success">Our Services</h1>
+    <div class="empty m-t-6"></div>
+    <div class="service-container">
+        <div class="cards row m-auto d-flex">  <!-- Custom class name provided by me-->
+            <div class="card c-4 text-center w-25 m-auto list-unstyled pt-4">
+                <img class="img-fluid w-50 m-auto" src="./Logo/allergies.png" class="card-img-top" alt="...">
+                <p class="card-body">
+                  <h5 class="card-title">Allergies</h5>
+                  <p><li class="service">Allergy Testing Services:</li>
+                    <li class="service">Allergen Immunotherapy</li>
+                    <li class="service">Allergist Consultations</li>
+                    <li class="service">Allergy Medication Management</li></p>
+                  <a href="#" class="btn btn-primary">Make Appointment</a>
+                </div>
+
+                <!-- second card  -->
+
+            <div class="card  c-4 text-center w-25 m-auto list-unstyled pt-4" >
+                <img class="img-fluid w-50 m-auto" src="./Logo/cancer.png" class="card-img-top" alt="...">
+                <p class="card-body">
+                    <h5 class="card-title">Cancer</h5>
+                    <p>
+                            
+                        <li class="service">Cancer Treatment Centers:</li>
+                        <li class="service">Oncology Consultations</li>
+                        <li class="service">Supportive Care Services</li>
+                        <li class="service">Cancer Screening and Diagnosis</li>
+                    </p>
+                    <a href="#" class="btn btn-primary">Make Appointment</a>
+                </p>
+            </div>
+
+            
+            
+
+              <!-- third card  -->
+
+              <div class="card  c-4 text-center w-25 m-auto list-unstyled pt-4">
+                <img class="img-fluid w-50 m-auto" src="./Logo/diabetes.png" class="card-img-top" alt="...">
+                <p class="card-body">
+                    <h5 class="card-title">Cancer</h5>
+                    <p>
+                        <li class="service">Blood Glucose Monitoring Services:</li>
+                        <li class="service">Nutritional Counseling</li>
+                        <li class="service">Endocrinology Services</li>
+                        <li class="service">Diabetes Education Programs</li>    
+ 
+                    </p>
+                    <a href="#" class="btn btn-primary">Make Appointment</a>
+                </p>
+            </div>
+
+
+  
+        </div>
+    </div>
+
+
+    <div class="contact-container w-50 container m-auto">
+
+        <h1 class="p-5  text-center justify-content-center">Contact With Us</h1>
+        
+
+
+            <!-- ############## Bootstrap forms##############-->
+        <form action="#">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+        </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Your Comments</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Comments"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Data</button>
+
+        </form>
+
+    </div>
+
+
+    <!--   Below part is use for set link with image besides it will be work both devices (container-xxl)-->
+    <!-- <nav class="navbar bg-body-secondary">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="#" target="_blank">
+            <img src="./Logo/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+        </div>
+      </nav> -->
+
+<!--   ######################## NAVBAR Brand which use link with image ############
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Logo/logo.png" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
+      </nav>
+     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

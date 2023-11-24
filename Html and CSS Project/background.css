@@ -1,0 +1,21 @@
+.banner_container{
+    height: 100vh;
+    background-image: url("./Images/background.jpg"), linear-gradient(rgba(73, 35, 35, 0.3), rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title
+{
+    font-weight: bold;
+    color: cyan;
+    font-size: 80px;
+    font-weight: 200px;
+}
+
+.internal{
+    padding-top: 400px;
+    padding-left: 100px;
+}
