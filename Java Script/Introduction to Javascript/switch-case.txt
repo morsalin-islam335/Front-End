@@ -1,0 +1,1 @@
+switch case is like C or C++ switch case.
