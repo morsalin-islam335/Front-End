@@ -1,0 +1,60 @@
+<!-- Sample Bank Management System-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="balance-container">
+        <div class="deposite money">
+             <div id="deposit">
+                <div id="taka">00</div>
+                <div class="show">Deposit</div>
+             </div>
+        </div>
+        <div class="withdraw money">
+            <div id="withdraw">
+                <div id="taka">00</div>
+                <div class="show">Withdraw</div>
+             </div>
+        </div>
+        <div class="total money">
+            <div id="total">
+                <div id="total">00</div>
+                <div class="show">Total</div>
+             </div>
+        </div>
+    </div>
+
+    
+
+    <div class="withdrawl-receive">
+
+        <div  class="depositBalance">
+            <input id ="deposit-2" type="number" placeholder="deposit amount">
+            <div>
+                <button onclick="deposit()" id="deposit-btn">Deposit</button>
+            </div>
+        </div>
+
+        <div class="withdrawBalance">
+            <input id = "withdraw-2" type="number" placeholder="withdrawal amount">
+            <div>
+                <button id="withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
