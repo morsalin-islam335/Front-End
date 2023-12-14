@@ -1,0 +1,367 @@
+
+<!-- to know about bootstrap flex-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<body>
+    <h1 class="bg-success align-content-center d-flex">Start</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <h3>display flex</h3>
+                <div class="d-flex bg-success text-white">
+                    <div class="p-3 bg-primary">container 1</div>
+                    <div class="p-3 bg-secondary">container 2</div>
+                    <div class="p-3 bg-danger-subtle">container 3</div>
+                    <div class="p-3 bg-danger">container 4</div>
+                </div>
+<!-- for display inline flex-->
+<hr>
+                <h3>display inline flex</h3>
+                <div class="d-inline-flex bg-secondary text-white">
+                    <div class="p-3 bg-primary">container 1</div>
+                    <div class="p-3 bg-secondary">container 2</div>
+                    <div class="p-3 bg-danger-subtle">container 3</div>
+                    <div class="p-3 bg-danger">container 4</div>
+                </div>
+
+                <hr>
+<h3>display inline-flex + flex-row-reverse</h3>
+
+                <div class="d-inline-flex flex-row-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                    <div class="p-3 bg-primary">container 1</div>
+                    <div class="p-3 bg-secondary">container 2</div>
+                    <div class="p-3 bg-danger-subtle">container 3</div>
+                    <div class="p-3 bg-danger">container 4</div>
+                </div>
+<!-- Flex column-->
+
+
+
+<hr>
+<h3>Flex column + display inline flex</h3>
+                <div class="d-inline-flex flex-column  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                    <div class="p-3 bg-primary">container 1</div>
+                    <div class="p-3 bg-secondary">container 2</div>
+                    <div class="p-3 bg-danger-subtle">container 3</div>
+                    <div class="p-3 bg-danger">container 4</div>
+                </div>
+
+<h3>Flex column-reverse + display inline flex</h3>
+                <div class="d-inline-flex flex-column-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                    <div class="p-3 bg-primary">container 1</div>
+                    <div class="p-3 bg-secondary">container 2</div>
+                    <div class="p-3 bg-danger-subtle">container 3</div>
+                    <div class="p-3 bg-danger">container 4</div>
+                </div>
+
+
+                <hr>
+               
+
+                <h3>display-flex + flex-row-reverse + justify-content-start <p class="text-danger">(reverse order a end a thakba)</p></h3>
+            <div class="d-flex flex-row-reverse justify-content-start  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                <div class="p-3 bg-primary">container 1</div>
+                <div class="p-3 bg-secondary">container 2</div>
+                <div class="p-3 bg-danger-subtle">container 3</div>
+                <div class="p-3 bg-danger">container 4</div>
+            </div>
+<hr>
+
+
+
+                <h3>display-flex + flex-row_reverse + justify-content-center <p class="text-danger">center a nia gia reverse order a thakba</p></h3>
+            <div class="d-flex flex-row-reverse justify-content-center  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                <div class="p-3 bg-primary">container 1</div>
+                <div class="p-3 bg-secondary">container 2</div>
+                <div class="p-3 bg-danger-subtle">container 3</div>
+                <div class="p-3 bg-danger">container 4</div>
+            </div>
+<hr>
+
+                <h3>display-flex + flex-row_reverse + justify-content-end <p class="text-danger">(reverse hoia start a thakba)</p> </h3>
+            <div class="d-flex flex-row-reverse justify-content-end  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                <div class="p-3 bg-primary">container 1</div>
+                <div class="p-3 bg-secondary">container 2</div>
+                <div class="p-3 bg-danger-subtle">container 3</div>
+                <div class="p-3 bg-danger">container 4</div>
+            </div>
+
+<hr>
+
+
+                <h3>display-flex  + justify-content-between <p class="text-danger">(justify content-between korba)</p> </h3>
+            <div class="d-flex  justify-content-between  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                <div class="p-3 bg-primary">container 1</div>
+                <div class="p-3 bg-secondary">container 2</div>
+                <div class="p-3 bg-danger-subtle">container 3</div>
+                <div class="p-3 bg-danger">container 4</div>
+            </div>
+
+<hr>
+
+                <h3>display-flex + flex-row_reverse + justify-content-around <p class="text-danger">(reverse order a around hoia thakba)</p> </h3>
+            <div class="d-flex justify-content-around flex-row-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+                <div class="p-3 bg-primary">container 1</div>
+                <div class="p-3 bg-secondary">container 2</div>
+                <div class="p-3 bg-danger-subtle">container 3</div>
+                <div class="p-3 bg-danger">container 4</div>
+            </div>
+
+<hr>
+            </div>
+        </div>
+    </div>
+<hr>
+
+
+<!-- outside testing-->
+
+
+<h2>OUter div part</h2>
+
+<h3>display-inline-flex</h3>
+
+
+<div class="d-inline-flex bg-success text-white">
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+<hr>
+
+
+<h3>display-inline-flex + flex-row-reverse</h3>
+
+
+<!-- d-flex will be flex div and d-inline-flex will be avoid extra space and d-flex/d-inline-flex + flex-reverse will be reverse all div -->
+<div class="d-inline-flex flex-row-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+<hr>
+
+<hr>
+
+
+<h3>display-flex + flex-row-reverse</h3>
+
+
+<!-- d-flex will be flex div and d-inline-flex will be avoid extra space and d-flex/d-inline-flex + flex-reverse will be reverse all div -->
+<div class="d-flex flex-row-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+<hr>
+
+
+<h3>display-inline-flex + flex-column</h3>
+<div class="d-inline-flex flex-column  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+<h3>display-inline-flex + flex-column-reverse</h3>
+<div class="d-inline-flex flex-column-reverse  bg-secondary text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+
+
+
+<hr>
+
+<h3>display-flex + flex-row-reverse + justify-content-around  <p class="text-success">(Eta space around hoba)</p></h3>
+<div class=" d-flex flex-row-reverse justify-content-around text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+<hr>
+<h3>display-flex + flex-row-reverse + justify-content-between  <p class="text-success">(Eta space between hoba)</p></h3>
+<div class=" d-flex flex-row-reverse justify-content-between text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <!-- <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div> -->
+</div>
+<hr>
+
+
+<h3 class="d-inline">display-flex + flex-row_reverse + justify-content-center <h3 class="text-success d-inline"> (eta center a nia jaba)</h3> </h3>
+
+<div></div> <!-- etar kaj nai-->
+
+<div class="d-flex flex-row-reverse justify-content-center  text-white"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+
+<hr>
+
+
+e
+
+<h3>display-flex + justify-content-start + flex-row-reverse <p class="text-danger">(sesh a jaba)</p> </h3>
+<div class="d-flex   text-white flex-row-reverse"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+<hr>
+
+<h3>display-flex + justify-content-end + flex-row-reverse <p class="text-danger">(suruta asba)</p> </h3>
+<div class="d-flex justify-content-end  text-white flex-row-reverse"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 bg-danger">container 4</div>
+</div>
+<hr>
+
+
+<h3>display-flex + flex-fill(inner div) + flex-row-reverse <p class="text-danger">(soman onupat a puron hoba)</p> </h3>
+<div class="d-flex text-white flex-row-reverse justify-content-center"><!-- ekbar inner div a flex-fill thakar karona justify-content ar kaj korba na--> 
+    <div class="p-3 flex-fill bg-primary">container 1</div>
+    <div class="p-3 flex-fill bg-secondary">container 2</div>
+    <div class="p-3 flex-fill bg-danger-subtle">container 3</div>
+    <div class="p-3 flex-fill bg-danger">container 4</div>
+</div>
+<hr>
+
+
+<h3>display-flex + flex-grow-1(last-inner div) + flex-row-reverse <p class="text-danger">(container-4 pray sob jayga niba)</p> </h3>
+<div class="d-flex text-white flex-row-reverse"><!-- ekbar inner div a flex-fill thakar karona justify-content ar kaj korba na--> 
+    <div class="p-3 bg-primary">container 1</div>
+    <div class="p-3 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 flex-grow-1 bg-danger">container 4</div>
+</div>
+<hr>
+
+
+<h3>display-flex + flex-grow-1(last-inner div) + flex-row-reverse <p class="text-danger">(container-4 and container-2 pray sob jayga niba)</p> </h3>
+<div class="d-flex text-white flex-row-reverse text-center"><!-- ekbar inner div a flex-fill thakar karona justify-content ar kaj korba na--> 
+    <div class="p-3  bg-primary">container 1</div>
+    <div class="p-3 flex-grow-1 bg-secondary">container 2</div>
+    <div class="p-3 bg-danger-subtle">container 3</div>
+    <div class="p-3 flex-grow-1 bg-danger">container 4</div>
+</div>
+<hr>
+
+
+<h3>display-flex  + flex-row-reverse (make order start from last child div) <p class="text-danger">(last a asba)</p> </h3>
+<div class="d-flex text-white flex-row-reverse"> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 order-4 bg-primary">container 1</div>
+    <div class="p-3 order-3 bg-secondary">container 2</div>
+    <div class="p-3 order-2 bg-danger-subtle">container 3</div>
+    <div class="p-3 order-1 bg-danger">container 4</div>
+</div>
+<hr>
+<hr>
+
+
+<h3>display-flex  +  (make order start from last child div) (flex-row-reverse er mot output asba) <p class="text-danger">(suruta asba)</p> </h3>
+<div class="d-flex text-white "> <!-- inline flex wil be keep space just take child own space-->
+    <div class="p-3 order-4 bg-primary">container 1</div>
+    <div class="p-3 order-3 bg-secondary">container 2</div>
+    <div class="p-3 order-2 bg-danger-subtle">container 3</div>
+    <div class="p-3 order-1 bg-danger">container 4</div>
+</div>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="bg-success text-center" >Now discuss with align contain</h1>
+<hr>
+
+<h1>align-content-center justify content-center</h1>
+
+<div class="d-flex flex-wrap align-content-center text-white bg-secondary justify-content-center" style="height: 50vh;">
+    <div class="p-3 bg-info">This is container-1</div>
+    <div class="p-3 bg-dark">This is container-2</div>
+    <div class="p-3 bg-warning">This is container-3</div>
+    <div class="p-3 bg-success-subtle">This is container-4</div>
+    <div class="p-3 bg-primary">This is container-5</div>
+</div>
+<hr>
+
+<h1>align-items-center justify content-center</h1>
+<div class="d-flex flex-wrap align-items-center justify-content-center text-white bg-secondary" style="height: 50vh;">
+    <div class="p-3 bg-info">This is container-1</div>
+    <div class="p-3 bg-dark">This is container-2</div>
+    <div class="p-3 bg-warning">This is container-3</div>
+    <div class="p-3 bg-success-subtle">This is container-4</div>
+    <div class="p-3 bg-primary">This is container-5</div>
+</div>
+<hr>
+
+<h1>align-content-content-start justify content-center</h1>
+<div class="d-flex flex-wrap align-content-start justify-content-center text-white bg-secondary" style="height: 50vh;">
+    <div class="p-3 bg-info">This is container-1</div>
+    <div class="p-3 bg-dark">This is container-2</div>
+    <div class="p-3 bg-warning">This is container-3</div>
+    <div class="p-3 bg-success-subtle">This is container-4</div>
+    <div class="p-3 bg-primary">This is container-5</div>
+</div>
+<hr>
+
+<h1>align-content-stretch justify content-center</h1>
+<div class="d-flex flex-wrap align-content-stretch justify-content-center text-white bg-secondary" style="height: 50vh;">
+    <div class="p-3 bg-info">This is container-1</div>
+    <div class="p-3 bg-dark">This is container-2</div>
+    <div class="p-3 bg-warning">This is container-3</div>
+    <div class="p-3 bg-success-subtle">This is container-4</div>
+    <div class="p-3 bg-primary">This is container-5</div>
+</div>
+
+<hr>
+<h1>align-items-stretch justify content-center</h1>
+<div class="d-flex flex-wrap align-items-stretch justify-content-center text-white bg-secondary" style="height: 50vh;">
+    <div class="p-3 bg-info">This is container-1</div>
+    <div class="p-3 bg-dark">This is container-2</div>
+    <div class="p-3 bg-warning">This is container-3</div>
+    <div class="p-3 bg-success-subtle">This is container-4</div>
+    <div class="p-3 bg-primary">This is container-5</div>
+</div>
+<hr>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
